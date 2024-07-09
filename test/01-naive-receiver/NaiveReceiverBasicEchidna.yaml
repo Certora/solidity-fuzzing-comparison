@@ -16,3 +16,5 @@ prefix: "invariant_"
 
 # instruct foundry to compile tests
 cryticArgs: ["--foundry-compile-all"]
+
+testLimit: 10000000000000000

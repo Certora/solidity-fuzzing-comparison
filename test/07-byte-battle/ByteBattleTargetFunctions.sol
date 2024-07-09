@@ -16,7 +16,7 @@ abstract contract ByteBattleTargetFunctions is Asserts {
     }
 
     // actual implementation to test
-    function _convertIt(bytes32 b) private pure returns (uint96) {
+    function _convertIt(bytes32 b) public pure returns (uint96) {
         return uint96(uint256(b) >> 160);
     }
 }

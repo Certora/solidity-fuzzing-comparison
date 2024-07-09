@@ -16,3 +16,7 @@ docs/
 
 # test coverage files
 **/coverage**
+
+
+# Certora
+.certora_internal 

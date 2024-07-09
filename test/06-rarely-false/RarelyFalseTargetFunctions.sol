@@ -20,7 +20,7 @@ abstract contract RarelyFalseTargetFunctions is Asserts {
     }
 
      // actual implementation to test
-    function _rarelyFalse(uint256 n, uint256 e) private pure returns(bool) {
+    function _rarelyFalse(uint256 n, uint256 e) public pure returns(bool) {
         if(n % 2**e == 0) return false;
         return true;
     }

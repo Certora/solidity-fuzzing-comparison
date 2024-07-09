@@ -207,7 +207,7 @@ contract Proposal {
                     // first bug - totalVotesFor instead of totalVotes
                     // rewardPerVoter =  Math.mulDiv(totalRewards, 1, totalVotes, Math.Rounding.Up); 
                     // second bug - the left over can be more than one - give the last one all
-                    rewardPerVoter =  address(this).balance; /* Math.mulDiv(totalRewards, 1, totalVotesFor, Math.Rounding.Up);*/
+                    rewardPerVoter =  address(this).balance; /*Math.mulDiv(totalRewards, 1, totalVotesFor, Math.Rounding.Up);*/ 
                 }
                 _sendEth(s_votersFor[i], rewardPerVoter);
             }

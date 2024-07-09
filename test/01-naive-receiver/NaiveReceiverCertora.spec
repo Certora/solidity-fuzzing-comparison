@@ -37,7 +37,8 @@ rule receiverHasAssets_rule(method f) {
     assert before != 0 =>  nativeBalances[receiver] != 0 ;
 }
 
-
+/* Good property : only the system or the msg.sender
+*/
 rule noChangeToOtherUser {
     method f;
     calldataarg args;

@@ -1,3 +1,13 @@
+
+
+
+
+or comparision to formal verification see:
+https://github.com/Certora/fuzz-vs-fv-showdown/blob/master/README.md
+
+This file is from the original repo.
+
+
 # Solidity Fuzzing Challenge: Foundry vs Echidna vs Medusa #
 
 A comparison of solidity fuzzing tools [Foundry](https://book.getfoundry.sh/), [Echidna](https://secure-contracts.com/program-analysis/echidna/index.html) & [Medusa](https://github.com/crytic/medusa). This challenge set is not intended to be an academically rigorous benchmark but rather to present the experiences of an auditor "in the trenches"; the goal is finding the best performance "out of the box" with as little guidance & tweaking as possible.

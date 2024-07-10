@@ -2,10 +2,8 @@
 
 
 
-or comparision to formal verification see:
+THIS IS THE ORIGINAL README of the repo, for the comparasion to Certroa see:
 https://github.com/Certora/fuzz-vs-fv-showdown/blob/master/README.md
-
-This file is from the original repo.
 
 
 # Solidity Fuzzing Challenge: Foundry vs Echidna vs Medusa #
